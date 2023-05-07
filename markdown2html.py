@@ -11,7 +11,7 @@ import re
 import hashlib
 
 if __name__ == '__main__':
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print('Usage: ./markdown2html.py README.md README.html',
               file=sys.stderr)
         exit(1)
@@ -19,6 +19,7 @@ if __name__ == '__main__':
     if not os.path.isfile(sys.argv[1]):
         print('Missing {}'.format(sys.argv[1]), file=sys.stderr)
         exit(1)
-else:
 
-    exit (0);
+
+    exit (0)
+    
