@@ -191,7 +191,6 @@
     display: flex;
   }
 
-
   /* .row::after {
    
     content: '';
@@ -382,12 +381,10 @@
   }
 
   /* Section Latest news ============================= */
-  .row{
+
+  #latest_news .row{
     flex-direction: row-reverse;
   }
-
-
-
 
   /*** 4. CARD ***/
   
