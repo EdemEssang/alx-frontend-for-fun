@@ -53,3 +53,4 @@ def convert_markdown_to_html(input_file, output_file):
 
     # Exit with a successful status code
     sys.exit(0)
+    
