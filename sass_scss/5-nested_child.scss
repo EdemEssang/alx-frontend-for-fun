@@ -11,10 +11,8 @@ $text-color1: #FF0000;
 body{
     color: $text-color;
     
-    .red{
-        &:first-child{
-            color: $text-color1;
-        }
+    >.red{
+    color: $text-color1;
       
     }
 }
